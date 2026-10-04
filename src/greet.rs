@@ -1,3 +1,3 @@
 pub fn greet(name: &str) -> String {
-    format!("Hello, {name}")
+    format!("Good morning, {name}")
 }
