@@ -1,3 +1,7 @@
 pub fn items() -> Vec<u32> {
-    vec![1, 2, 3]
+    Vec::new()
+}
+
+pub fn first(list: &[u32]) -> Option<u32> {
+    list.first().copied()
 }
