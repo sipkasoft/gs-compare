@@ -1,3 +1,5 @@
-pub fn log(line: &str) {
-    eprintln!("{line}");
+pub fn log(level: u8, line: &str) {
+    if level > 0 {
+        eprintln!("[{level}] {line}");
+    }
 }
